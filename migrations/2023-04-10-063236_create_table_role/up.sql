@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS role(
+    id INT AUTO_INCREMENT,
+    label VARCHAR(50) UNIQUE,
+    note VARCHAR(255),
+    PRIMARY KEY (id)
+);

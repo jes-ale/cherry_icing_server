@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS action(
+    id INT AUTO_INCREMENT,
+    label VARCHAR(12) UNIQUE,
+    PRIMARY KEY (id)
+);
