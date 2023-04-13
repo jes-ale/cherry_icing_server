@@ -1,13 +1,11 @@
 extern crate actix;
 #[macro_use]
 extern crate diesel;
-#[macro_use]
-extern crate diesel_migrations;
 
 mod actors;
+mod connection_pool;
 mod models;
 mod schema;
-mod connection_pool;
 
 use actix_web::{
     delete, get, patch, post, put,
@@ -17,8 +15,8 @@ use actix_web::{
 
 use actix::SyncArbiter;
 use actors::DbActor;
-use connection_pool::mysql_pool::{run_migrations, get_pool};
-use models::{AppState};
+use connection_pool::{get_pool, run_migrations};
+use models::AppState;
 use std::env;
 
 #[actix_web::main]
@@ -30,7 +28,7 @@ async fn main() -> std::io::Result<()> {
 
     HttpServer::new(move || {
         App::new()
-            .service()
+            // .service()
             .data(AppState {
                 db: db_addr.clone(),
             })

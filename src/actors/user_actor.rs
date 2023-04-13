@@ -1,5 +1,5 @@
-use super::DbActor;
 use crate::actix::{Handler, Message};
+use crate::actors::DbActor;
 use crate::diesel::prelude::*;
 use crate::models::user_models::{CreateUser, User};
 use crate::schema::user::dsl::{email, hash, id, name, user};
@@ -14,7 +14,6 @@ pub struct Create {
 
 impl Handler<Create> for DbActor {
     type Result = QueryResult<User>;
-
     fn handle(&mut self, msg: Create, _: &mut Self::Context) -> Self::Result {
         let mut conn = self.0.get().expect("Unable to get a connectio");
         let create_user = CreateUser {
@@ -23,16 +22,12 @@ impl Handler<Create> for DbActor {
             hash: msg.text_pass, // TODO: HASH STRONG
         };
 
-        match diesel::insert_into(user)
-            .values(create_user)
+        let inserted = diesel::insert_into(user)
+            .values(&create_user)
             .execute(&mut conn)
-        {
-            Ok(result) => {
-                return user
-                    .filter(email.like(create_user.email))
-                    .get_result::<User>(&mut conn);
-            }
-            Err(error) => return Err(error),
-        }
+            .expect("Unable to insert into user");
+        
+        user.filter(email.eq(create_user.email))
+            .get_result::<User>(&mut conn)
     }
 }
