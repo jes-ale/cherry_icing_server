@@ -3,7 +3,7 @@
 This repo has just some boilerplate and is not even working that good and need a lot of work.
 ### Road map
 
-- Make server a lib.
+- Make server a lib. <- We are here xd
 - Add pem file authentication.
 - Add bearer jwt authorization middleware.
 - Add sample JWT Secure routes.
