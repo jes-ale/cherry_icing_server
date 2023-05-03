@@ -12,7 +12,7 @@ This repo has just some boilerplate and is not even working that good and need a
 - Add sample json routes.
 - Add sample static file routes.
 - Add sample file upload/download routes.
-- Add application check (hand made some middleware i guess)
+- Add application check (hand made some middleware)
 - idk, get good at rust i guess.
 - Make the addressed features modular and to opt in as requiered for the proyect
 - Figure out workflow to add the template into the wizzard to deploy a backend ([cherry dashboard ](https://github.com/jes-ale/cherry_dashboard)) maybe git clone.
