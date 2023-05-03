@@ -3,14 +3,17 @@
 This repo has just some boilerplate and is not even working that good and need a lot of work.
 ### Road map
 
-- Make server a lib..
-- Add bearer jwt auth.
-- Add auth middleware.
-- Add Secure routes.
+- Make server a lib.
+- Add pem file authentication.
+- Add bearer jwt authorization middleware.
+- Add sample JWT Secure routes.
 - Add static files serving.
-- Add file uploading.
+- Add file upload/download.
 - Add sample json routes.
+- Add sample static file routes.
+- Add sample file upload/download routes.
 - Add application check (hand made some middleware i guess)
 - idk, get good at rust i guess.
 - Make the addressed features modular and to opt in as requiered for the proyect
-- Figure out workflow to add the template into the wizzard to deploy a backend ([cherry dashboard ](https://github.com/jes-ale/cherry_dashboard))
+- Figure out workflow to add the template into the wizzard to deploy a backend ([cherry dashboard ](https://github.com/jes-ale/cherry_dashboard)) maybe git clone.
+- Add test suite and write tests.
