@@ -15,5 +15,5 @@ This repo has just some boilerplate and is not even working that good and need a
 - Add application check (hand made some middleware)
 - idk, get good at rust i guess.
 - Make the addressed features modular (opt in as requiered for the proyect)
-- Figure out workflow to add the template into the * wizzard to deploy a backend * ([cherry wizzard](https://github.com/jes-ale/cherry_icing_wizzard) maybe git clone.
+- Figure out workflow to add the template into the * wizzard to deploy a backend * ( [cherry wizzard](https://github.com/jes-ale/cherry_icing_wizzard) ) maybe git clone.
 - Add test suite and write tests.
