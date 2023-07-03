@@ -1,21 +1,25 @@
 [package]
-name = "cherry_server"
+name = "cherry_icing_server"
 version = "0.1.0"
 edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 authors = ["Jesus Alejos https://github.com/jes-ale"]
 [dependencies]
-actix = "0.13.0"
-actix-web = "4.2.1"
-chrono = { version = "0.4.22", features = ["serde"] }
-dotenv = "0.15.0"
+axum = "0.6.18" 
+axum-macros =  "0.3.7" 
+bb8 = "0.8"
+diesel = "2.1.0" 
+diesel-async = { version = "0.3.1", features = ["postgres",'bb8'] }
+diesel_migrations = { version = " 2.1.0", features = ['postgres'] }
 serde = { version = "1.0.145", features = ["derive"] }
 serde_json = "1.0.86"
+tokio = { version = "1.0", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+chrono = { version = "0.4.22", features = ["serde"] }
+dotenv = "0.15.0"
 uuid = { version="1.3.1", features = ['v4','serde'] }
-diesel = { version = "2.0.3", features = ['uuid','r2d2','mysql'] }
-diesel_migrations = { version = " 2.0.0", features = ['mysql'] }
 # DEPENDENCIES SPECIFIC TO AUTH
-actix-web-httpauth = "0.8.0"
 argonautica = "0.2.0"
 hmac = "0.12.1"
 jwt = "0.16.0"
