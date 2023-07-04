@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T06:08:06.113Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="tdXpifiVpVmUwBHR6417" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T06:09:52.404Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="-bfTewoeQoin9YbQqgub" version="21.5.2" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
-    <mxGraphModel dx="1147" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1625" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="klHbuM8uDpRpoRBJuKRg-9" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="440" y="10" width="400" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="klHbuM8uDpRpoRBJuKRg-10" value="&lt;h1&gt;Business rules&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Installed via wizard GUI / CLI tool.&lt;/li&gt;&lt;li&gt;Prompt to create super user at first run.&lt;/li&gt;&lt;li&gt;Automatically run migrations on run&lt;/li&gt;&lt;li&gt;Automatically detect changes in migrations sql files and restart server&lt;/li&gt;&lt;li&gt;Gracefully shutdown and restart &lt;/li&gt;&lt;li&gt;Full control over database&lt;/li&gt;&lt;li&gt;Real time database connection&lt;/li&gt;&lt;li&gt;Data analytics&lt;/li&gt;&lt;li&gt;Distinct back-end push notification from individual web app push notifications&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="klHbuM8uDpRpoRBJuKRg-10" value="&lt;h1&gt;Business rules&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Installed via wizard GUI / CLI tool.&lt;/li&gt;&lt;li&gt;Prompt to create super user at first run.&lt;/li&gt;&lt;li&gt;Automatically run migrations on run&lt;/li&gt;&lt;li&gt;Automatically detect changes in migrations sql files and restart server&lt;/li&gt;&lt;li&gt;Gracefully shutdown and restart &lt;/li&gt;&lt;li&gt;Full control over database&lt;/li&gt;&lt;li&gt;Real time database connection&lt;/li&gt;&lt;li&gt;Data analytics&lt;/li&gt;&lt;li&gt;Distinct back-end push notification from individual web app push notifications&lt;/li&gt;&lt;li&gt;Encryption ? pem access to console (dashboard)&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="450" y="10" width="380" height="530" as="geometry" />
         </mxCell>
         <mxCell id="klHbuM8uDpRpoRBJuKRg-16" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
@@ -99,9 +99,6 @@
         </mxCell>
         <mxCell id="fmhTsbL_tRKqL0MWWiDu-25" value="&lt;h1&gt;Plugins app&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1285" y="1010" width="380" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fmhTsbL_tRKqL0MWWiDu-26" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="380" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
