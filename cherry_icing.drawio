@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T00:48:59.101Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="07dpTk15VeBPZGBx7wsZ" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T05:48:08.104Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="NvleCvTKTmNolAYRwJaF" version="21.5.2" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
-    <mxGraphModel dx="1589" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="650" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,28 +25,22 @@
         <mxCell id="klHbuM8uDpRpoRBJuKRg-21" value="&lt;h1&gt;Features&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Authentication, authorization, roles.&lt;/li&gt;&lt;li&gt;PostgreSQL databases, real time snapshots, rest APIs. SQL First, ORM last.&lt;/li&gt;&lt;li&gt;Data layer interfacing. Share the same data layer with your favorite front-end (export JSON-like data structures, automatically generate widgets on studio based on data layer interfaces)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Functions (lambda) (typescript with node, maybe Kotlin JVM )&lt;br&gt;&lt;/li&gt;&lt;li&gt;File storage&lt;/li&gt;&lt;li&gt;Web App manager (create, manage, deploy, configure web apps, create from template, create from scratch, use any web framework, transparent and vanilla deploy workflow assisted with GUI)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Web App studio (builder)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Push notifications suite&lt;br&gt;&lt;/li&gt;&lt;li&gt;Web sockets suite&lt;/li&gt;&lt;li&gt;CI/CD pipelines (for web apps, functions, and external servers) &lt;br&gt;&lt;/li&gt;&lt;li&gt;GitHub integrations&lt;/li&gt;&lt;li&gt;OAuth for management and development teams&lt;/li&gt;&lt;li&gt;OAuth for end users&lt;/li&gt;&lt;li&gt;CMS out of the box (preset database, rest apis and template web app)&lt;/li&gt;&lt;li&gt;Extensible. Use the web app studio to start with a template or drag-drop common or custom widgets, extend the generated app from studio or create your own from scratch. Use this apps to extend the back-end or provide a service to your end users. Example app ideas: CMS app, CRM app, point of sale app, static website app, dynamic website app, e-commerce app, surveys app, employee messaging app, end user - employee trouble shooting messaging app, employee voice call app, real time GPS monitoring app, browser game app, download page app, file archiving app.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="20" y="120" width="380" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="880" y="10" width="400" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-2" value="&lt;h1&gt;Tech stack&lt;br&gt;&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;I&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-2" value="&lt;h1&gt;Tech stack&lt;br&gt;&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;I&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="890" y="10" width="380" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-3" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="10" width="400" height="80" as="geometry" />
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-3" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="10" width="400" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-4" value="&lt;h1&gt;Requirements&lt;br&gt;&lt;/h1&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="10" width="380" height="70" as="geometry" />
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-4" value="&lt;h1&gt;Requirements&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;The server ships with builtin features to provide the back end as a service.&lt;/li&gt;&lt;li&gt;The list of features shipped-in may change over time.&lt;/li&gt;&lt;li&gt;This base features are referred as &quot;&lt;b&gt;base apps&lt;/b&gt;&quot;. &lt;/li&gt;&lt;li&gt;User developed &quot;&lt;b&gt;web apps&quot; &lt;/b&gt;are expected to consume the &lt;b&gt;base apps&lt;/b&gt; resources. Like hosting app, file storage app, data layer app, etc.&lt;/li&gt;&lt;li&gt;Features that consist of whole projects are described in the scope of back-end and server-side code. &lt;/li&gt;&lt;li&gt;By design any business logic should be implemented in this server to avoid duplication of architecture layers.&lt;/li&gt;&lt;li&gt;Application logic is OK to be implemented and described on the specific project requirements.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="10" width="380" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="100" width="400" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-6" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="190" width="400" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-7" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-7" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="1320" y="280" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YIyZL2ha0DixRXkV2q8q-8" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="YIyZL2ha0DixRXkV2q8q-8" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="1320" y="370" width="400" height="80" as="geometry" />
         </mxCell>
       </root>
