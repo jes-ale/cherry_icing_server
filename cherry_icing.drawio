@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T04:10:30.264Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="NVhzTOHLvvpKJNIyPflj" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T04:10:53.812Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="CzC1wEgD0NCEmf4NdzXC" version="21.5.2" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
-    <mxGraphModel dx="832" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2185" dy="3408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
           <mxGeometry x="1275" y="10" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qlUVa_-iQgWLDvTtryUB-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="80" width="400" height="350" as="geometry" />
+          <mxGeometry x="1700" width="850" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="qlUVa_-iQgWLDvTtryUB-2" value="&lt;h1&gt;User app&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1710" y="90" width="380" height="40" as="geometry" />
