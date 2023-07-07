@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T06:53:48.030Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="cfq1btqqbePJZtoCNHLg" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T06:56:53.542Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="oMA-C29gaURmow9NQ_US" version="21.5.2" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
     <mxGraphModel dx="1159" dy="2768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
         <mxCell id="qlUVa_-iQgWLDvTtryUB-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#B5739D;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1700" width="950" height="1100" as="geometry" />
         </mxCell>
-        <mxCell id="qlUVa_-iQgWLDvTtryUB-2" value="&lt;h1&gt;Auth app&lt;/h1&gt;&lt;div&gt;App url: /api/{catalog}/{action} &lt;br&gt;&lt;/div&gt;&lt;div&gt;Headers: Application-tag, Authorization?&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="qlUVa_-iQgWLDvTtryUB-2" value="&lt;h1&gt;Auth app&lt;/h1&gt;&lt;div&gt;Headers: Application-tag, Authorization?&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;align=left;fontStyle=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1710" y="10" width="820" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qlUVa_-iQgWLDvTtryUB-5" value="&lt;h1&gt;Core app catalogs&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=#66B2FF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;align=left;fontStyle=2;verticalAlign=top;gradientColor=none;" parent="1" vertex="1">
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-76" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;catalog_create&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;application_id: i32 &lt;b&gt;FK&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;tag: string&lt;br&gt;&lt;/div&gt;description: string&lt;/div&gt;path: string" style="text;html=1;strokeColor=#000000;fillColor=#66B2FF;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1910" y="-590" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iaBh0g7A5b2rrNCw3fFz-78" value="URL Schema API: /api/{catalog}/{action}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="-60" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
