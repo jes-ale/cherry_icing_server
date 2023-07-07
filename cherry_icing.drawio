@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T04:10:07.830Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="uNDhaP3HJ_7lIffGqNBA" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T04:10:30.264Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="NVhzTOHLvvpKJNIyPflj" version="21.5.2" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
     <mxGraphModel dx="832" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
           <mxGeometry x="2150" y="-630" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-5" value="&lt;div&gt;&lt;b&gt;Token_Role_Catalog_Action&lt;/b&gt;&lt;/div&gt;&lt;div&gt;id: i32 &lt;b&gt;PK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;token_id: i32 &lt;b&gt;FK&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;role_catalog_action: i32 &lt;b&gt;FK&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="-480" width="190" height="140" as="geometry" />
+          <mxGeometry x="2340" y="-480" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
