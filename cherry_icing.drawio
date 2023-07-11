@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T03:49:50.654Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="TuIRjMnujPMJd5d3Ve9L" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T03:51:22.277Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="0RUjTtpNE1dZTIGeqFjF" version="21.6.1" type="github">
   <diagram name="Page-1" id="CK9nf4KCI2I7pFjc9x5D">
-    <mxGraphModel dx="1147" dy="2858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="3296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,8 +190,8 @@
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-71" value="&lt;h1&gt;Auth app json bodys&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#B5739D;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;align=left;fontStyle=2;verticalAlign=top;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2167.5" y="-650" width="1632.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iaBh0g7A5b2rrNCw3fFz-73" value="&lt;h1&gt;Auth app catalogs&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=#B5739D;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;align=left;fontStyle=2;verticalAlign=top;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2120" y="-1110" width="1622.5" height="50" as="geometry" />
+        <mxCell id="iaBh0g7A5b2rrNCw3fFz-73" value="&lt;h1&gt;Auth app catalogs&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#B5739D;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;align=left;fontStyle=2;verticalAlign=top;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="-1110" width="1660" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-25" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;&lt;b&gt;user_create&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;is_super_user&lt;b&gt;: &lt;/b&gt;boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;email: string&amp;lt;email&amp;gt;&lt;/div&gt;&lt;div&gt;password: string&lt;/div&gt;&lt;div&gt;roles: i32[]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;&lt;b&gt;profile_create&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;user_id: i32 ?&lt;br&gt;company_id: i32 ?&lt;br&gt;name: string&lt;br&gt;last_name: string&lt;br&gt;second_last_name: string&lt;br&gt;&lt;div&gt;public_email: string&amp;lt;email&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;&lt;b&gt;role_create&lt;/b&gt;&lt;/span&gt;&lt;div&gt;tag: string&lt;/div&gt;&lt;/div&gt;&lt;div&gt;description: string&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;&lt;b&gt;action_create&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tag: string&lt;br&gt;&lt;/div&gt;&lt;div&gt;description: string&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#B5739D;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;fontColor=#000000;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="2167.5" y="-580" width="190" height="280" as="geometry" />
@@ -242,13 +242,13 @@
           <mxGeometry x="2320" y="-1040" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-62" value="&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Catalog&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;id: i32 &lt;b&gt;PK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;application_id: i32 &lt;b&gt;FK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;tag: string&lt;br&gt;&lt;/div&gt;description: string&lt;/div&gt;path: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="-1040" width="190" height="100" as="geometry" />
+          <mxGeometry x="1920" y="-1040" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-65" value="&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;id: i32 &lt;b&gt;PK&lt;/b&gt;&lt;/div&gt;&lt;div&gt;tag: string&lt;br&gt;&lt;/div&gt;description: string&lt;/div&gt;&lt;div&gt;type: string&amp;lt;enum&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1710" y="-1040" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-76" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;catalog_create&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;application_id: i32 &lt;b&gt;FK&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;tag: string&lt;br&gt;&lt;/div&gt;description: string&lt;/div&gt;path: string" style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="-580" width="190" height="100" as="geometry" />
+          <mxGeometry x="1970" y="-580" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-78" value="URL Schema API: /api/{catalog}/{action}" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="-60" width="250" height="40" as="geometry" />
@@ -259,7 +259,7 @@
         <mxCell id="iaBh0g7A5b2rrNCw3fFz-24" value="Model body: http request json body usage." style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1710" y="-610" width="2090" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iaBh0g7A5b2rrNCw3fFz-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Model bridge payload: Internal usage.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="iaBh0g7A5b2rrNCw3fFz-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Model relational bridge payload: Internal usage.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#666666;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFFFF;shadow=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1710" y="-840" width="2080" height="30" as="geometry" />
         </mxCell>
       </root>
